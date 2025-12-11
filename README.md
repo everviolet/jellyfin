@@ -37,13 +37,13 @@
 1. Copy your preferred palette's import rule:
     ```css
     /* Winter */
-    @import url("https://jellyfin.everviolet.xyz/evergarden-winter.css");
+    @import url("https://everviolet.github.io/jellyfin/evergarden-winter.css");
     /* Fall */
-    @import url("https://jellyfin.everviolet.xyz/evergarden-fall.css");
+    @import url("https://everviolet.github.io/jellyfin/evergarden-fall.css");
     /* Spring */
-    @import url("https://jellyfin.everviolet.xyz/evergarden-spring.css");
+    @import url("https://everviolet.github.io/jellyfin/evergarden-spring.css");
     /* Summer */
-    @import url("https://jellyfin.everviolet.xyz/evergarden-summer.css");
+    @import url("https://everviolet.github.io/jellyfin/evergarden-summer.css");
     ```
 2. Open settings, navigate to Display and paste the CSS into the section called "Custom CSS code"
 3. Press Save and enjoy the pretty colors!
