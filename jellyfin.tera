@@ -1,0 +1,45 @@
+---
+whiskers:
+  version: ^2.5.1
+  matrix:
+    - flavor
+  filename: 'themes/evergarden-{{flavor.identifier}}.css'
+---
+/**
+ * Catppuccin for Jellyfin
+ * Licensed under the EUPL (version 1.2)
+ * https://github.com/everviolet/jellyfin/blob/main/LICENSE
+ */
+
+@import url("https://jellyfin.catppuccin.com/theme.css");
+
+:root {
+  --red: #{{red.hex}};
+  --orange: #{{orange.hex}};
+  --yellow: #{{yellow.hex}};
+  --lime: #{{lime.hex}};
+  --green: #{{green.hex}};
+  --aqua: #{{aqua.hex}};
+  --skye: #{{skye.hex}};
+  --snow: #{{snow.hex}};
+  --blue: #{{blue.hex}};
+  --purple: #{{purple.hex}};
+  --pink: #{{pink.hex}};
+  --cherry: #{{cherry.hex}};
+
+  --main-color: var(--green);
+  --main-background: #{{base.hex}};
+  --main-background-transparent: #{{base.hex}}dd;
+  --dark-background: {% if flavor.identifier == "latte" %}#{{text.hex}}{% else %}#{{mantle.hex}}{% endif %};
+  --hover-background: #{{surface0.hex}};
+  --second-background: #{{mantle.hex}};
+  --main-text: #{{text.hex}};
+  --white-text: {% if flavor.identifier == "latte" %}#{{base.hex}}{% else %}#{{text.hex}}{% endif %};
+  --dimmer-text: #{{overlay2.hex}};
+
+  --red-color: var(--red);
+  --green-color: var(--green);
+  --blue-color: var(--blue);
+  --cyan-color: var(--skye);
+  --yellow-color: var(--yellow);
+}

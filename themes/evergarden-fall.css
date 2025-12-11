@@ -1,0 +1,38 @@
+/**
+ * Catppuccin for Jellyfin
+ * Licensed under the EUPL (version 1.2)
+ * https://github.com/everviolet/jellyfin/blob/main/LICENSE
+ */
+
+@import url("https://jellyfin.catppuccin.com/theme.css");
+
+:root {
+  --red: #f57f82;
+  --orange: #f7a182;
+  --yellow: #f5d098;
+  --lime: #dbe6af;
+  --green: #cbe3b3;
+  --aqua: #b3e3ca;
+  --skye: #b3e6db;
+  --snow: #afd9e6;
+  --blue: #b2caed;
+  --purple: #d2bdf3;
+  --pink: #f3c0e5;
+  --cherry: #f6cee5;
+
+  --main-color: var(--green);
+  --main-background: #232a2e;
+  --main-background-transparent: #232a2edd;
+  --dark-background: #1c2225;
+  --hover-background: #2b3337;
+  --second-background: #1c2225;
+  --main-text: #f8f9e8;
+  --white-text: #f8f9e8;
+  --dimmer-text: #839e9a;
+
+  --red-color: var(--red);
+  --green-color: var(--green);
+  --blue-color: var(--blue);
+  --cyan-color: var(--skye);
+  --yellow-color: var(--yellow);
+}
