@@ -59,7 +59,7 @@ The accent color can be overridden by adding the following **after** the import:
 
 ### Thanks to <3
 
-- [adam](https://github.com/adamperkowski)
+- [koi](https://github.com/koibtw)
 - [Catppuccin for Jellyfin contributors](https://github.com/catppuccin/jellyfin?tab=readme-ov-file#-thanks-to)
 
 <hr>
