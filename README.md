@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-    <img src="/assets/preview.webp"/>
+    <img src="https://codeberg.org/evergarden/jellyfin/raw/branch/main/assets/preview.webp"/>
 </p>
 
 ### Previews
@@ -53,7 +53,7 @@
 The accent color can be overridden by adding the following **after** the import:
 ```css
 :root {
-    --main-color: var(--cherry);
+    --main-color: var(--pink);
 }
 ```
 
